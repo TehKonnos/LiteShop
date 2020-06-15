@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "96866581652",
+    "firebase_url": "https://liteshop-c2765.firebaseio.com",
+    "project_id": "liteshop-c2765",
+    "storage_bucket": "liteshop-c2765.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96866581652:android:da532b493b4c458031c881",
+        "android_client_info": {
+          "package_name": "com.example.liteshop20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96866581652-f39rtffip2knsmfmtgadmkq1gvdsn5ra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.liteshop20",
+            "certificate_hash": "7954ae1b986d4f39d3149949df7c4c807eb987a9"
+          }
+        },
+        {
+          "client_id": "96866581652-ob4kecpkup905cpk19tigmb4qnmr5m77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjbp5VHvGzYB_RkMKvt4OUhwdiwdOZkts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96866581652-ob4kecpkup905cpk19tigmb4qnmr5m77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

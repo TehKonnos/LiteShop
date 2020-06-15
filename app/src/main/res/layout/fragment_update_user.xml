@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/userUpdate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateUser">
+
+    <TextView
+        android:id="@+id/uptextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/TitleUpdateuser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/uptextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/onoatep"
+        app:layout_constraintStart_toStartOf="@+id/uptextView4"
+        app:layout_constraintTop_toBottomOf="@+id/uptextView2" />
+
+    <TextView
+        android:id="@+id/uptextView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/poli"
+        app:layout_constraintStart_toStartOf="@+id/uptextView6"
+        app:layout_constraintTop_toBottomOf="@+id/uptextView5" />
+
+    <TextView
+        android:id="@+id/uptextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/Diefthinsi"
+        app:layout_constraintStart_toStartOf="@+id/uptextView5"
+        app:layout_constraintTop_toBottomOf="@+id/uptextView3" />
+
+    <TextView
+        android:id="@+id/uptextView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/tilefono"
+        app:layout_constraintStart_toStartOf="@+id/textidu"
+        app:layout_constraintTop_toBottomOf="@+id/uptextView7" />
+
+    <EditText
+        android:id="@+id/upeditText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="yes"
+        android:ems="10"
+        android:hint="@string/idEx"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/upeditText"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textidu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="76dp"
+        android:text="@string/idgive2"
+        app:layout_constraintBottom_toBottomOf="@+id/upeditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/upeditText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="yes"
+        android:ems="10"
+        android:hint="@string/pxText1"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/uptextView4"
+        app:layout_constraintEnd_toEndOf="@+id/upeditText3" />
+
+    <EditText
+        android:id="@+id/upeditText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/pxTown"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/uptextView7"
+        app:layout_constraintEnd_toEndOf="@+id/upeditText5" />
+
+    <EditText
+        android:id="@+id/upeditText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:autofillHints="Yes"
+        android:ems="10"
+        android:hint="@string/pxTaxCode"
+        android:inputType="number"
+        app:layout_constraintBaseline_toBaselineOf="@+id/uptextView5"
+        app:layout_constraintEnd_toEndOf="@+id/upeditText4"
+        app:layout_constraintTop_toBottomOf="@+id/upeditText2" />
+
+    <TextView
+        android:id="@+id/uptextView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/JTextTaxCode"
+        app:layout_constraintStart_toStartOf="@+id/uptextView7"
+        app:layout_constraintTop_toBottomOf="@+id/uptextView4" />
+
+    <EditText
+        android:id="@+id/upeditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="yes"
+        android:ems="10"
+        android:hint="@string/pxOnoma"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/uptextView3"
+        app:layout_constraintEnd_toEndOf="@+id/upeditText2" />
+
+    <EditText
+        android:id="@+id/upeditText5"
+        android:layout_width="216dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="236dp"
+        android:autofillHints="yes"
+        android:ems="10"
+        android:hint="@string/PxTil"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/upeditText2" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/upbarrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left"
+        tools:layout_editor_absoluteX="418dp" />
+
+    <Button
+        android:id="@+id/upbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="46dp"
+        android:text="@string/upChange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/upeditText5"
+        app:layout_constraintVertical_bias="0.295" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.admin.AdminTools">
+
+    <Button
+        android:id="@+id/atbusers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="71dp"
+        android:text="@string/AdminToolsusersBTN"
+        app:layout_constraintEnd_toEndOf="@+id/textView15"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <Button
+        android:id="@+id/atbproducts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="57dp"
+        android:text="@string/AdminToolsproductsBTN"
+        app:layout_constraintEnd_toEndOf="@+id/atbusers"
+        app:layout_constraintStart_toStartOf="@+id/atbusers"
+        app:layout_constraintTop_toBottomOf="@+id/atbusers" />
+
+    <Button
+        android:id="@+id/atbOrders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/AdminToolsordersBTN"
+        app:layout_constraintEnd_toEndOf="@+id/atbproducts"
+        app:layout_constraintStart_toStartOf="@+id/atbproducts"
+        app:layout_constraintTop_toBottomOf="@+id/atbproducts" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:text="@string/AdminToolsHeadText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/atbStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="@string/AdminToolsstatsBTN"
+        app:layout_constraintEnd_toEndOf="@+id/atbOrders"
+        app:layout_constraintStart_toStartOf="@+id/atbOrders"
+        app:layout_constraintTop_toBottomOf="@+id/atbOrders" />
+</androidx.constraintlayout.widget.ConstraintLayout>

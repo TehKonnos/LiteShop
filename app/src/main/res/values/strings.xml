@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">LiteShop 1.0</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">LiteShop V1.0</string>
+    <string name="nav_header_subtitle">A shop lighter than feather!</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ρυθμίσεις</string>
+
+    <string name="menu_home">Αρχική</string>
+    <string name="menu_gallery">Προϊόντα</string>
+    <string name="menu_slideshow">Καλάθι</string>
+
+
+    <string name="you_succ">Μια χοντρή</string>
+    <string name="Title">Στοιχεία Επικοινωνίας</string>
+    <string name="onoatep">Ονοματεπώνυμο</string>
+    <string name="poli">Πόλη</string>
+    <string name="Diefthinsi">Διεύθυνση Κατοικίας</string>
+    <string name="tilefono">Τηλέφωνο</string>
+    <string name="notes">Σημείωση</string>
+    <string name="simiosi1">(Προαιρετική)</string>
+    <string name="pxText1">Πχ: Αναλήψεως 50</string>
+    <string name="pxTown">Πχ: Αθήνα</string>
+    <string name="pxTaxCode">Πχ: 77577</string>
+    <string name="JTextTaxCode">Ταχυδρομικός κώδικας</string>
+    <string name="pxOnoma">Πχ: Γιώργος Παπαδόπουλος</string>
+    <string name="PxTil">Πχ: 6971234567</string>
+    <string name="TieinaiAfto">Τι ειναι αυτο</string>
+    <string name="BStoixeiaNext">Συνεχεια</string>
+    <string name="admin_panel">Διαχειριστής</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="buttonQ1">Button</string>
+    <string name="press_the_button">Press the button</string>
+    <string name="query_results">Αποτελέσματα</string>
+    <string name="Deletetxt">Διαγραφη</string>
+    <string name="Deleteheader">Διαγραφή Χρήστη</string>
+    <string name="idgive">Γράψε το Id του χρήστη.</string>
+    <string name="TitleUpdateuser">Αλλαγή στοιχείων χρήστη</string>
+    <string name="idEx">Πχ: Id=10</string>
+    <string name="idgive2">ID χρήστη:</string>
+    <string name="upChange">Αλλαγή</string>
+    <string name="apothematxt">Απόθεμα:</string>
+    <string name="paddhint1">Πχ: "Πληκτρολόγιο"</string>
+    <string name="pAddButton">Εισαγωγη</string>
+    <string name="παδδτχτ2">Τίτλος προϊόντος:</string>
+    <string name="paddtxt3">Περιγραφή:</string>
+    <string name="paddtxt4">Προσθήκη προιόντος</string>
+    <string name="paddtxt5">Τιμή:</string>
+    <string name="paddhint4">Τεμάχια</string>
+    <string name="pAddhint3">Ευρώ</string>
+    <string name="paddhint2">Τι είναι;</string>
+    <string name="PDeltxt">Διαγραφή Προϊόντος</string>
+    <string name="idGiveDeltxt">Γράψε το ID του προϊόντος</string>
+    <string name="AdminToolsHeadText">Διάλεξε μία επιλογή</string>
+    <string name="AdminToolsstatsBTN">Στατιστικα</string>
+    <string name="AdminToolsordersBTN">ΠΑΡΑΓΓΕΛΙΕΣ</string>
+    <string name="AdminToolsproductsBTN">ΠΡΟΪΟΝΤΑ</string>
+    <string name="AdminToolsusersBTN">ΧΡΗΣΤΕΣ</string>
+    <string name="id_7">Πχ: ID=7</string>
+    <string name="idgivePUPD">ID προϊόντος</string>
+    <string name="txtProd">Λίστα Προϊόντων</string>
+    <string name="svaddusrfr">Αποθηκευση</string>
+    <string name="Save">Αποθηκευση</string>
+    <string name="idgiveo">ID Χρήστη</string>
+    <string name="idgiveo2">ID Προϊόντος</string>
+    <string name="amounto">Ποσότητα Παραγγελίας</string>
+    <string name="oHeadadd">Προσθήκη Παραγγελίας</string>
+
+    <string-array name="spinner_names">
+        <item>Υπόλοιπες ποσότητες</item>
+        <item>Συνολικές πωλησεις</item>
+        <item>Πωλήσεις ανα προϊόν</item>
+    </string-array>
+</resources>

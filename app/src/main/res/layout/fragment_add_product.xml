@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddProduct">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paddtxt5"
+        app:layout_constraintBaseline_toBaselineOf="@+id/paddeditText10"
+        app:layout_constraintStart_toStartOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/paddtxt4"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/παδδτχτ2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/paddeditText8"
+        app:layout_constraintStart_toStartOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paddtxt3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/paddeditText9"
+        app:layout_constraintStart_toStartOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:text="@string/apothematxt"
+        app:layout_constraintBaseline_toBaselineOf="@+id/paddeditText11"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/paddeditText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="@string/paddhint1"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="no" />
+
+    <EditText
+        android:id="@+id/paddeditText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="@string/paddhint2"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/paddeditText8"
+        app:layout_constraintTop_toBottomOf="@+id/paddeditText8"
+        android:autofillHints="no" />
+
+    <EditText
+        android:id="@+id/paddeditText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="@string/pAddhint3"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/paddeditText9"
+        app:layout_constraintTop_toBottomOf="@+id/paddeditText9"
+        android:autofillHints="no" />
+
+    <EditText
+        android:id="@+id/paddeditText11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="@string/paddhint4"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/paddeditText10"
+        app:layout_constraintTop_toBottomOf="@+id/paddeditText10"
+        android:autofillHints="no" />
+
+    <Button
+        android:id="@+id/buttonpadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:text="@string/pAddButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paddeditText11" />
+</androidx.constraintlayout.widget.ConstraintLayout>

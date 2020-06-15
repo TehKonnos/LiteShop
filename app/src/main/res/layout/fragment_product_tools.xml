@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductTools">
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:layout_marginBottom="36dp"
+        android:text="Δίαλεξε μία από τις επιλογές:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/ptAdd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ptDelete"
+        android:layout_width="110dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="44dp"
+        android:text="Αφαιρεση"
+        app:layout_constraintEnd_toEndOf="@+id/ptAdd"
+        app:layout_constraintStart_toStartOf="@+id/ptAdd"
+        app:layout_constraintTop_toBottomOf="@+id/ptAdd" />
+
+    <Button
+        android:id="@+id/ptAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="527dp"
+        android:text="Προσθηκη"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <Button
+        android:id="@+id/ptUpdate"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="44dp"
+        android:text="Αλλαγη"
+        app:layout_constraintEnd_toEndOf="@+id/ptDelete"
+        app:layout_constraintStart_toStartOf="@+id/ptDelete"
+        app:layout_constraintTop_toBottomOf="@+id/ptDelete" />
+
+    <Button
+        android:id="@+id/ptQuery"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Λιστα προϊοντων"
+        app:layout_constraintEnd_toEndOf="@+id/ptUpdate"
+        app:layout_constraintStart_toStartOf="@+id/ptUpdate"
+        app:layout_constraintTop_toBottomOf="@+id/ptUpdate" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,2 @@
+rootProject.name='LiteShop2.0'
+include ':app'
