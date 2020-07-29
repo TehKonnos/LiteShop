@@ -20,7 +20,7 @@ A small Android eshop, made with Java and Room SQLite.
 # How to use:
 As the application uses RoomSQL first you need to: 
 
-1. Add products from the admin panel at "Διαχειρηστής"
+1. Add products from the admin panel at "Διαχειριστής"
 
 and then:
 
