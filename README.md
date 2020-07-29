@@ -17,7 +17,7 @@ A small Android eshop, made with Java and Room SQLite.
 4. Product list for buyers
 5. Cart to see/remove products
 
-#How to use:
+# How to use:
 As the application uses RoomSQL first you need to: 
 
 1. Add products from the admin panel at "Διαχειρηστής"
