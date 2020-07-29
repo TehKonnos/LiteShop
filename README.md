@@ -27,6 +27,7 @@ and then:
 2. Go to products list as a user would do and touch your favorite products to add in cart
 3. Procced to cart and confirm your order.
 4. Add your personal details about the delivery of your products
+
 Finally: 
 
 5. Voilà! You just completed your order! The products now are less than before.
